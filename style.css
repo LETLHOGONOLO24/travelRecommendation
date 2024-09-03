@@ -1,0 +1,226 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-image: url('1_home.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+#textarea {
+    padding: 10px 20px;
+    border: none;
+    
+}
+.column {
+    float: left;
+    padding: 10px;
+    margin-top: 10%;
+}
+.column.side {
+    width: 25%;
+    display: flex;        
+    flex-direction: column; 
+    align-items: center;  
+    gap: 20px; 
+}
+.column.side p {
+    color: rgb(15, 12, 12);
+}
+.column.side i {
+    font-size: 40px;                
+    cursor: pointer;      
+    transition: color 0.3s;
+    margin-top: 20%;
+}
+.column.middle {
+    width: 50%
+}
+.column.middle h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(15, 12, 12);
+}
+
+.column.middle p {
+    font-size: 18px;
+    width: 60%;
+    color: rgb(15, 12, 12);
+}
+
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+#button {
+    padding: 10px 20px;
+    background-color: teal;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+#clear {
+    padding: 10px 20px;
+    background-color: teal;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.column.side img {
+    width: 200px;
+    height: 100px;
+}
+
+/* About Us */
+
+.about-section {
+    padding: 50px;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.about.column {
+    float: left;
+    padding: 10px;
+    margin-top: 10%;
+}
+.about.column.side {
+    width: 25%;
+    display: flex;        
+    flex-direction: column; 
+    align-items: center;  
+    gap: 20px; 
+}
+.about.column.side i {
+    font-size: 40px;                
+    cursor: pointer;      
+    transition: color 0.3s;
+    margin-top: 20%;
+}
+.about.column.middle {
+    width: 50%
+}
+.column.middle h1 {
+    font-size: 70px;
+    font-weight: bold
+}
+.column.middle p {
+    font-size: 18px;
+    width: 60%;
+}
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.about-section {
+    position: relative;
+    height: 100vh;
+    background-image: url('1_home.png');
+    background-size: cover;
+    background-position: center;
+}
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.member {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+.member h3 {
+    margin: 0;
+    font-size: 24px;
+}
+.member p {
+    margin: 5px 0 0;
+}
+
+/* Contact Us */
+
+.contact-section {
+    position: relative;
+    height: 100vh;
+    background-image: url('1_home.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-section {
+    position: relative;
+    text-align: left;
+    padding-top: 30%;
+    padding: 50px;
+    background-color: #111;
+}
+.contact-section h2 {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.contact-section input, .contact-section textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+}
+
+
+
